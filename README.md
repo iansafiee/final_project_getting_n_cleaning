@@ -1,5 +1,5 @@
 ## The code is divided into five parts 
-### The first part merges the train and test sets to create one dataset
+### The first part:
   * Downloads the data and unzips it 
   * Sets the working directory to the 'UCI HAR Dataset' folder
   * Reads in the train data
