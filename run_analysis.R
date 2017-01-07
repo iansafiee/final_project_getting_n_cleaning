@@ -86,6 +86,6 @@ total2 = aggregate(total[,3:68], by= list(total[,1], total[,2]), mean)
 colnames(total2) = names(total)
 write.table(total2, file = "./tidy_data", row.name = FALSE)
 variable_names = colnames(total2)
-write.table(variable_names, file = "./data")
+write.table(variable_names, files = "./data")
 
 
