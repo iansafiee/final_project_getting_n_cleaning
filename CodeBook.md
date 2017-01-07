@@ -1,8 +1,13 @@
-### a code book that describes 
-the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
 
-* "1" "activity"
-* "2" "subject"
+* "1" "activity" : describes the activity the subject performed 
+    * WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+    
+* "2" "subject" : specifies the subject number who performed a certain activity
+    * There were 30 subjects in the dataset
+    
+* Features Recorded: 
+    * Each variable specifies the average for each subject/activity
+
 * "3" "Time_Body_Accelerometer_Average_X"
 * "4" "Time_Body_Accelerometer_Average_Y"
 * "5" "Time_Body_Accelerometer_Average_Z"
